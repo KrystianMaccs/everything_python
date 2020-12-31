@@ -1,7 +1,18 @@
 me = "Caleb"
 
 #escape character example
-print("\n")
+# Escape characters allow python bypass some functions or methods on strings.
+# For example, the backslash (\t) is used to add space between each element in a string
+# The backlash (\n) is used to instruct python to go to a new line after a written string
+
+print("\n")  
+
+print("\t")
+
+print("\'") # This is a special case. In this case, we have a quotation mark after the backslash. This is because
+#python generally start reading a line of string from when the quotation starts and ends the string where a quotation ends
+# This poses no problem until you have to write something like ""mother's hen", then you see python stop once it gets
+# to "mother" and ignores every other thing after it. More examples below.
 
 me = "C\ta\tl\te\tb\n"
 
